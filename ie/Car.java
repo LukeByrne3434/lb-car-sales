@@ -7,17 +7,16 @@ public class Car {
 	    private int engineCapacity;
 	    private int price;
 	    private int power;
-	    private int numOfDoors;
 	    
 	   
-	    public Car(String make, String model,  int engineCapacity,int price, int power, int numOfDoors) {
+	    public Car(String make, String model,  int engineCapacity,int price, int power) {
 	        
 	    	this.make = make;
 		    this.model = model;
 		    this.engineCapacity = engineCapacity;
 		    this.price = price;
 		    this.power = power;
-		    this.numOfDoors = numOfDoors;
+		    
 	    }
 
 
@@ -71,15 +70,6 @@ public class Car {
 			this.power = power;
 		}
 
-
-		public int getNumOfDoors() {
-			return numOfDoors;
-		}
-
-
-		public void setNumOfDoors(int numOfDoors) {
-			this.numOfDoors = numOfDoors;
-		}
 	    
 	    
 
